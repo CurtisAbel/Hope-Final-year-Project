@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.curtislavaud.hope.AboutActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/About1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/registerbackground">
+
+        <TextView
+            android:id="@+id/tv_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="sans-serif"
+            android:text="About"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+    </RelativeLayout >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/About1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:hint="Hope was establised in 2019. When curits was younger, he experienced problems within the industry that stopped him from playing professionally. Unfortunately, due to an injury, he was released from his club. When he recovered he wanted get back to playing football, but u didn't have the right connections, which later lead to him not finding a  new team. He then thought to himself, what if there were people out there in the exact same circumstance.  Hope was then born. Hope connects all footballers, coaches and scout under one hub. Scout and coaches view players through the application and contact them via email. Hope aims to fights against injuries, coach favouritism, players not turning up to games. Hope aims to enhance our football communities for the better and spread positivity and deliver hope to those who need it.  "
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/grey" />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
